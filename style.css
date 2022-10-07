@@ -1,0 +1,40 @@
+body{
+ 
+  background: url(terms.jpg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.terms-box{
+
+  background-color: #E7F1F2;
+  color: #373F45;
+  font-family: "Montserrat";
+  padding: 60px 30px;
+}
+
+.terms-text{
+  padding: 0 20px;
+  overflow-y: auto;
+  font-size: 14px;
+  font-weight: 500;
+  color: #373F45;
+}
+
+.terms-text::-webkit-scrollbar{
+  width: 2px;
+  background-color: #B1CBCE;
+}
+
+.terms-text::-webkit-scrollbar-thumb{
+  background-color: #EFC620;
+}
+
+
+
+
+
+
+
+
